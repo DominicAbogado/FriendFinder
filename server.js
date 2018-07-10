@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 
 //Grabbing routes from my routes page
-// require('./app/routing/apiRoutes.js')(app);
+require('./app/routing/apiRoutes.js')(app);
 require('./app/routing/htmlRoutes.js')(app);
 
 
